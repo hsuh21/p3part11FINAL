@@ -1,0 +1,44 @@
+body{ 
+    background-color: #cbd6d1;
+    cursor: url('croissant.png'), auto;
+    display: flex;
+    justify-content: space-between;
+    height: 86vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    margin-left: 3%;
+    
+}
+h1{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9vw;
+    margin: 0;
+    line-height: 50%;
+}
+#blue{
+    color:#7E78C1;
+}
+#white{
+    color:white;
+}
+#red{
+    color: #D86060;
+}
+h2{
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 3vw;
+    width: 70vw;
+}
+
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}

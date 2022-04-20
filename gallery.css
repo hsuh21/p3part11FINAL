@@ -1,0 +1,63 @@
+:root {
+    --margin: 10px;
+  }
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #cbd6d1;
+    cursor: url('croissant.png'), auto;
+  }
+
+  .wrapper {
+    margin: var(--margin);
+    display: flex;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+  h1 {
+    color: white;
+  }
+  
+  #contents {
+    /*display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));*/
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: var(--margin);
+    align-items: start;
+    justify-items: start;
+    padding: 0;
+  }
+
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .block {
+    padding: var(--margin);
+    /*--color is the name of the variable that must be defined*/
+    background-color: var(--color, white);
+    /*remove var to remove random width function*/
+    width: /*var(--width, 25%);*/ 17vw;
+    height: 50vh;
+    
+  }
+
+  .block__image__caption{
+    margin: none;
+    display: none;
+    word-break:break-all
+  }
+  /*caption on hover*/
+  /*.block--image:hover .block__image__caption{
+    display: block;
+  }*/
